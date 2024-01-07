@@ -1,0 +1,18 @@
+{
+  "name": "backend-simple-api",
+  "version": "0.0.1",
+  "description": "A simple api to practice AND learn hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+},
+  "author": "Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "vim": "^0.1.0"
+  }
+}
