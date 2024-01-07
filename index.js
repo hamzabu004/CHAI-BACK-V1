@@ -14,5 +14,5 @@ app.get('/admin', function(req, res){
 });
 
 app.listen(process.env.V1_PORT, function(){    
-	console.log('Server is running on port ' + process.env.PORT);
+	console.log('Server is running on port ' + process.env.V1_PORT);
 });
